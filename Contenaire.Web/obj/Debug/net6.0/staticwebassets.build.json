@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "euiZvdMPP3JWvJDzmNfzIAOhE1rrI8hbnLjlpYLGwKw=",
+  "Source": "Contenaire.Web",
+  "BasePath": "_content/Contenaire.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

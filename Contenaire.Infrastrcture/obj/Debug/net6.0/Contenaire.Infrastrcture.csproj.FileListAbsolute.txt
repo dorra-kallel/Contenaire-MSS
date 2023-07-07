@@ -1,0 +1,17 @@
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\bin\Debug\net6.0\Contenaire.Infrastrcture.deps.json
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\bin\Debug\net6.0\Contenaire.Infrastrcture.runtimeconfig.json
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\bin\Debug\net6.0\Contenaire.Infrastrcture.dll
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\bin\Debug\net6.0\Contenaire.Infrastrcture.pdb
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\bin\Debug\net6.0\Contenaire.Core.dll
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\bin\Debug\net6.0\Contenaire.Core.pdb
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\Contenaire.Infrastrcture.csproj.AssemblyReference.cache
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\Contenaire.Infrastrcture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\Contenaire.Infrastrcture.AssemblyInfoInputs.cache
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\Contenaire.Infrastrcture.AssemblyInfo.cs
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\Contenaire.Infrastrcture.csproj.CoreCompileInputs.cache
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\Contenaire.Infrastrcture.csproj.CopyComplete
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\Contenaire.Infrastrcture.dll
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\refint\Contenaire.Infrastrcture.dll
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\Contenaire.Infrastrcture.pdb
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\Contenaire.Infrastrcture.genruntimeconfig.cache
+C:\Users\dorra\Desktop\Contenaire\Contenaire\Contenaire.Infrastrcture\obj\Debug\net6.0\ref\Contenaire.Infrastrcture.dll
