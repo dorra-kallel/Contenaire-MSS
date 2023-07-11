@@ -1,12 +1,9 @@
-using Contenaire.Core.Interfaces;
 using Contenaire.Infrastrcture;
-using Contenaire.Core.Services;
+using Contenaire.Web.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Configuration;
 using Microsoft.OpenApi.Models;
-using Microsoft.AspNetCore.Builder;
+using System;
 using System.Reflection;
-using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,12 +11,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddDbContext<DbContext, AMContext>(options =>
-    options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<ConcentrateurContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+/*builder.Services.AddDbContext<DbContext, AMContext>(options =>
+    options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));*/
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "JwtApp", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "ContenaireApp", Version = "v1" });
 
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
@@ -37,7 +38,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "JwtApp v1");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "ContenaireApp v1");
     });
 }
 

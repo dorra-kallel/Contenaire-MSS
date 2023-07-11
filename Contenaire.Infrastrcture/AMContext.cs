@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
-using Contenaire.Core.Interfaces;
-using Microsoft.EntityFrameworkCore;
+﻿/*using Microsoft.EntityFrameworkCore;
 
 namespace Contenaire.Infrastrcture
 {
-   
-    public class AMContext : DbContext
+
+    public class AMContext : DbContext 
     {
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -45,3 +38,4 @@ namespace Contenaire.Infrastrcture
 
     }
 }
+*/
