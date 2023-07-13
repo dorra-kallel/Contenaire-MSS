@@ -7,6 +7,7 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Builder;
 using System.Reflection;
 using System.IO;
+using Contenaire.Web.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddDbContext<DbContext, AMContext>(options =>
+builder.Services.AddDbContext<DbContext, ConcentrateurContext>(options =>
     options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
